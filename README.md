@@ -61,7 +61,7 @@ Defines Lambda Function that will process S3 Event. This will call Rekognition t
 
 4. Check Cloud Formation to verify created resources. 
 5. Testing - Upload file in the created S3 bucket. This will trigger S3 Event Notification, which is handled by Lambda, and persist detected labels by Rekognition to Dynamo Table. You can also check logs from Lambda function.
-6. Finally, destroy your stack.
+6. Finally, destroy your stack. Make sure you empty the bucket before running the command.
    ```
    cdk destroy
    ```
