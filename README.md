@@ -6,6 +6,16 @@ Make sure you have following installed
 * CDK CLI
 * Maven
 
+I had the following versions while working on this project:
+
+| Tool    | Version                                             |
+|---------|-----------------------------------------------------|
+| node js | 10.2.0                                              |
+| npm     | v18.18.2                                            |
+| aws     | aws-cli/2.12.2 Python/3.11.4 Windows/10             |
+| mvn     | 3.6                                                 |
+| java    | 17.0.7 (**code is targeted to compile/run on 1.8**) |
+
 ## Bootstrap CDK
 Run following command once per account and per region. This will deploy CDK toolkit stack into AWS.
 
